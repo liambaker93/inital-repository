@@ -1,3 +1,36 @@
-.stream-nav {
-    color: yellow;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+nav ul {
+    list-style: none;
+    background-color: #4a4a4f;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2.5%;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+
+}
+
+nav a:hover {
+    background-color: #ffff;
+    color: #4a4a4f;
 }
